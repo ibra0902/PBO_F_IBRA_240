@@ -5,7 +5,7 @@ public class Tugas {
 
     public static void main(String[] args) {
         while (true) {
-            System.out.println("Pilih Login:\n1. Admin\n2. Mahasiswa\nMasukkan Pilihan:");
+            System.out.println("Pilih Login:\n1. Admin\n2. Mahasiswa\nMasukkan Pilihan anda:");
             int pilihan = penginput.nextInt();
             penginput.nextLine(); 
             switch (pilihan) {
